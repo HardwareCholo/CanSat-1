@@ -1,0 +1,14 @@
+C:\Users\Manuel Mejia\Desktop\PROYECTO_VS\Intento1_ET\Intento1_ET\obj\Debug\Intento1_ET.csproj.AssemblyReference.cache
+C:\Users\Manuel Mejia\Desktop\PROYECTO_VS\Intento1_ET\Intento1_ET\obj\Debug\Intento1_ET.Form1.resources
+C:\Users\Manuel Mejia\Desktop\PROYECTO_VS\Intento1_ET\Intento1_ET\obj\Debug\Intento1_ET.Properties.Resources.resources
+C:\Users\Manuel Mejia\Desktop\PROYECTO_VS\Intento1_ET\Intento1_ET\obj\Debug\Intento1_ET.csproj.GenerateResource.cache
+C:\Users\Manuel Mejia\Desktop\PROYECTO_VS\Intento1_ET\Intento1_ET\obj\Debug\Intento1_ET.csproj.CoreCompileInputs.cache
+C:\Users\Manuel Mejia\Desktop\PROYECTO_VS\Intento1_ET\Intento1_ET\bin\Debug\Intento1_ET.exe.config
+C:\Users\Manuel Mejia\Desktop\PROYECTO_VS\Intento1_ET\Intento1_ET\bin\Debug\Intento1_ET.exe
+C:\Users\Manuel Mejia\Desktop\PROYECTO_VS\Intento1_ET\Intento1_ET\bin\Debug\Intento1_ET.pdb
+C:\Users\Manuel Mejia\Desktop\PROYECTO_VS\Intento1_ET\Intento1_ET\obj\Debug\Intento1_ET.exe
+C:\Users\Manuel Mejia\Desktop\PROYECTO_VS\Intento1_ET\Intento1_ET\obj\Debug\Intento1_ET.pdb
+C:\Users\Manuel Mejia\Desktop\PROYECTO_VS\Intento1_ET\Intento1_ET\bin\Debug\CircularProgressBar.dll
+C:\Users\Manuel Mejia\Desktop\PROYECTO_VS\Intento1_ET\Intento1_ET\bin\Debug\WinFormAnimation.dll
+C:\Users\Manuel Mejia\Desktop\PROYECTO_VS\Intento1_ET\Intento1_ET\bin\Debug\CircularProgressBar.xml
+C:\Users\Manuel Mejia\Desktop\PROYECTO_VS\Intento1_ET\Intento1_ET\obj\Debug\Intento1_ET.csproj.CopyComplete
