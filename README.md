@@ -1,6 +1,4 @@
-# CanSat-1
-#        Authors 
-Juan Daniel Falcón Cortez_
-Juan Manuel Mejia Pérez_
-Eddie Jan Mendoza Gonzáles_ 
-Leonardo Torres Leyva_
+<div id="header" align="center">
+    <img src="https://www.lasc.space/#h.2lsw0a5f2be7" width="200"/>  
+</div>
+
