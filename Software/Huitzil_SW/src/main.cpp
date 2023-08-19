@@ -34,28 +34,12 @@ void setup(){
   while(!LoRa.begin(915E6)){
   }
   LoRa.setSyncWord(0xF3); 
-  LoRa.beginPacket();
-  LoRa.println("COMMS ENABLED");
-  LoRa.endPacket(); 
-  LoRa.beginPacket();
-  LoRa.println("HUITZIL ONLINE");
-  LoRa.endPacket();
 
   //Inicialización de los sensores 
   Wire.begin();
   dht.begin();
   bmp.initialize(); 
   mpu.initialize();
-  Serial.println(mpu.testConnection() ? F("IMU iniciado correctamente") : F("Error al iniciar IMU"));
-  LoRa.beginPacket();
-  LoRa.println("DHT ONLINE");
-  LoRa.endPacket();
-  LoRa.beginPacket();
-  LoRa.println(bmp.testConnection() ? "BMP180 ONLINE" : "BMP180 OFFLINE");
-  LoRa.endPacket();
-  LoRa.beginPacket();
-  LoRa.println(mpu.testConnection() ? "MPU6050 ONLINE" : "MPU6050 OFFLINE");
-  LoRa.endPacket();
 
   digitalWrite(32, HIGH);
   delay(1000);
@@ -77,7 +61,7 @@ void loop(){
   //Envío de información
   digitalWrite(32, LOW); 
   LoRa.beginPacket();
-  LoRa.printf("T%.2fH%.2fP%.2fA%iC%iX%iY%iZ%iG\n",h,t,p,a,az,gx,gy,gz);
+  LoRa.printf("T%.2fH%.2fP%.2fA%iC%iX%iY%iZ%i\n",h,t,p,a,az,gx,gy,gz);
   LoRa.endPacket();
   delay(500);
 }
