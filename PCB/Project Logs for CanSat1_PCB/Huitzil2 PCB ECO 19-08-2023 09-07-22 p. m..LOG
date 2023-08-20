@@ -1,0 +1,257 @@
+Added Component: Designator=B1(BUZZER)
+Added Component: Designator=B2(BUZZER)
+Added Component: Designator=C1(CERAMIC CAP)
+Added Component: Designator=C2(Electrolytic capacitor 2mm)
+Added Component: Designator=C3(Electrolytic capacitor 2mm)
+Added Component: Designator=C4(CERAMIC CAP)
+Added Component: Designator=C5(Electrolytic capacitor 2mm)
+Added Component: Designator=C6(Electrolytic capacitor 2mm)
+Added Component: Designator=D1(3mm_LED)
+Added Component: Designator=D2(3mm_LED)
+Added Component: Designator=D3(3mm_LED)
+Added Component: Designator=D4(3mm_LED)
+Added Component: Designator=J1(BATT)
+Added Component: Designator=J2(BATT)
+Added Component: Designator=J3(CONN2x1_2.54mm)
+Added Component: Designator=J4(CONN2x1_2.54mm)
+Added Component: Designator=J5(CONN2x1_2.54mm)
+Added Component: Designator=J6(BATT)
+Added Component: Designator=J7(CONN2x1_2.54mm)
+Added Component: Designator=J8(CONN8x1_2.54)
+Added Component: Designator=J9(CONN8x1_2.54)
+Added Component: Designator=J10(BATT)
+Added Component: Designator=R1(THT RESISTOR)
+Added Component: Designator=R2(THT RESISTOR)
+Added Component: Designator=R3(THT RESISTOR)
+Added Component: Designator=R4(THT RESISTOR)
+Added Component: Designator=R5(THT RESISTOR)
+Added Component: Designator=R6(THT RESISTOR)
+Added Component: Designator=R7(THT RESISTOR)
+Added Component: Designator=SW1(PWR-SW)
+Added Component: Designator=SW2(PWR-SW)
+Added Component: Designator=U1(2N2222A)
+Added Component: Designator=U2(DHT11)
+Added Component: Designator=U3(MPU6050)
+Added Component: Designator=U4(BMP180)
+Added Component: Designator=U5(LF33CV)
+Added Component: Designator=U6(MODULE_ESP32-DEVKITC-32U)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ESP32-DEVKITC-32U/Espressif+Systems/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Espressif Systems"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ESP32-DEVKITC-32U"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/ESP32-DEVKITC-32U/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ESP32-DEVKITC-32U/Espressif+Systems/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U7(Bluee LoRa)
+Added Component: Designator=U8(2N2222A)
+Added Component: Designator=U9(LF33CV)
+Added Component: Designator=U10(DHT11)
+Added Component: Designator=U11(MPU6050)
+Added Component: Designator=U12(BMP180)
+Added Component: Designator=U13(Bluee LoRa)
+Added Component: Designator=U14(MODULE_ESP32-DEVKITC-32U)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ESP32-DEVKITC-32U/Espressif+Systems/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Espressif Systems"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ESP32-DEVKITC-32U"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/ESP32-DEVKITC-32U/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ESP32-DEVKITC-32U/Espressif+Systems/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3a Pin=J3-1
+Added Pin To Net: NetName=3V3a Pin=R4-1
+Added Pin To Net: NetName=3V3a Pin=U2-1
+Added Pin To Net: NetName=3V3a Pin=U3-1
+Added Pin To Net: NetName=3V3a Pin=U4-1
+Added Net: Name=3V3a
+Added Pin To Net: NetName=3V3b Pin=J6-1
+Added Pin To Net: NetName=3V3b Pin=U6-1
+Added Net: Name=3V3b
+Added Pin To Net: NetName=3V3c Pin=J9-7
+Added Pin To Net: NetName=3V3c Pin=U7-2
+Added Net: Name=3V3c
+Added Pin To Net: NetName=3V3 Pin=B1-1
+Added Pin To Net: NetName=3V3 Pin=B2-1
+Added Pin To Net: NetName=3V3 Pin=D2-1
+Added Pin To Net: NetName=3V3 Pin=D4-1
+Added Pin To Net: NetName=3V3 Pin=J2-1
+Added Pin To Net: NetName=3V3 Pin=R2-1
+Added Pin To Net: NetName=3V3 Pin=R6-1
+Added Pin To Net: NetName=3V3 Pin=SW1-2
+Added Pin To Net: NetName=3V3 Pin=SW2-2
+Added Pin To Net: NetName=3V3 Pin=U10-1
+Added Pin To Net: NetName=3V3 Pin=U11-1
+Added Pin To Net: NetName=3V3 Pin=U12-1
+Added Pin To Net: NetName=3V3 Pin=U13-2
+Added Pin To Net: NetName=3V3 Pin=U14-1
+Added Net: Name=3V3
+Added Pin To Net: NetName=32 Pin=J4-1
+Added Pin To Net: NetName=32 Pin=R1-1
+Added Pin To Net: NetName=32 Pin=R5-1
+Added Pin To Net: NetName=32 Pin=U14-7
+Added Net: Name=32
+Added Pin To Net: NetName=CK Pin=J9-3
+Added Pin To Net: NetName=CK Pin=U7-8
+Added Net: Name=CK
+Added Pin To Net: NetName=DHT11 Pin=J7-2
+Added Pin To Net: NetName=DHT11 Pin=U6-8
+Added Pin To Net: NetName=DHT11 Pin=U10-2
+Added Pin To Net: NetName=DHT11 Pin=U14-8
+Added Net: Name=DHT11
+Added Pin To Net: NetName=GNDa Pin=J3-2
+Added Pin To Net: NetName=GNDa Pin=U2-3
+Added Pin To Net: NetName=GNDa Pin=U3-2
+Added Pin To Net: NetName=GNDa Pin=U4-2
+Added Net: Name=GNDa
+Added Pin To Net: NetName=GNDb Pin=C3-2
+Added Pin To Net: NetName=GNDb Pin=J6-2
+Added Net: Name=GNDb
+Added Pin To Net: NetName=GNDc Pin=J9-8
+Added Pin To Net: NetName=GNDc Pin=U7-1
+Added Net: Name=GNDc
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J2-2
+Added Pin To Net: NetName=GND Pin=J10-2
+Added Pin To Net: NetName=GND Pin=R3-1
+Added Pin To Net: NetName=GND Pin=R7-1
+Added Pin To Net: NetName=GND Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U5-2
+Added Pin To Net: NetName=GND Pin=U8-3
+Added Pin To Net: NetName=GND Pin=U9-2
+Added Pin To Net: NetName=GND Pin=U10-3
+Added Pin To Net: NetName=GND Pin=U11-2
+Added Pin To Net: NetName=GND Pin=U12-2
+Added Pin To Net: NetName=GND Pin=U13-1
+Added Net: Name=GND
+Added Pin To Net: NetName=IO0 Pin=J9-6
+Added Pin To Net: NetName=IO0 Pin=U7-3
+Added Net: Name=IO0
+Added Pin To Net: NetName=LED Pin=J7-1
+Added Pin To Net: NetName=LED Pin=U6-7
+Added Net: Name=LED
+Added Pin To Net: NetName=LoRacs Pin=J8-6
+Added Pin To Net: NetName=LoRacs Pin=U6-28
+Added Pin To Net: NetName=LoRacs Pin=U13-7
+Added Pin To Net: NetName=LoRacs Pin=U14-28
+Added Net: Name=LoRacs
+Added Pin To Net: NetName=LoRaDIO0 Pin=J8-8
+Added Pin To Net: NetName=LoRaDIO0 Pin=U6-26
+Added Pin To Net: NetName=LoRaDIO0 Pin=U13-3
+Added Pin To Net: NetName=LoRaDIO0 Pin=U14-26
+Added Net: Name=LoRaDIO0
+Added Pin To Net: NetName=LoRarst Pin=J8-7
+Added Pin To Net: NetName=LoRarst Pin=U6-27
+Added Pin To Net: NetName=LoRarst Pin=U13-6
+Added Pin To Net: NetName=LoRarst Pin=U14-27
+Added Net: Name=LoRarst
+Added Pin To Net: NetName=MISO Pin=J8-4
+Added Pin To Net: NetName=MISO Pin=U6-31
+Added Pin To Net: NetName=MISO Pin=U13-10
+Added Pin To Net: NetName=MISO Pin=U14-31
+Added Net: Name=MISO
+Added Pin To Net: NetName=MI Pin=J9-4
+Added Pin To Net: NetName=MI Pin=U7-10
+Added Net: Name=MI
+Added Pin To Net: NetName=MOSI Pin=J8-3
+Added Pin To Net: NetName=MOSI Pin=U6-37
+Added Pin To Net: NetName=MOSI Pin=U13-9
+Added Pin To Net: NetName=MOSI Pin=U14-37
+Added Net: Name=MOSI
+Added Pin To Net: NetName=MO Pin=J9-5
+Added Pin To Net: NetName=MO Pin=U7-9
+Added Net: Name=MO
+Added Pin To Net: NetName=NetB1_2 Pin=B1-2
+Added Pin To Net: NetName=NetB1_2 Pin=D1-2
+Added Pin To Net: NetName=NetB1_2 Pin=U1-1
+Added Net: Name=NetB1_2
+Added Pin To Net: NetName=NetB2_2 Pin=B2-2
+Added Pin To Net: NetName=NetB2_2 Pin=D3-2
+Added Pin To Net: NetName=NetB2_2 Pin=U8-1
+Added Net: Name=NetB2_2
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=NetC1_2 Pin=J1-1
+Added Pin To Net: NetName=NetC1_2 Pin=U5-1
+Added Net: Name=NetC1_2
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC2_2 Pin=SW1-1
+Added Pin To Net: NetName=NetC2_2 Pin=U5-3
+Added Net: Name=NetC2_2
+Added Pin To Net: NetName=NetC3_1 Pin=C3-1
+Added Pin To Net: NetName=NetC3_1 Pin=U6-2
+Added Net: Name=NetC3_1
+Added Pin To Net: NetName=NetC4_2 Pin=C4-2
+Added Pin To Net: NetName=NetC4_2 Pin=J10-1
+Added Pin To Net: NetName=NetC4_2 Pin=U9-1
+Added Net: Name=NetC4_2
+Added Pin To Net: NetName=NetC5_2 Pin=C5-2
+Added Pin To Net: NetName=NetC5_2 Pin=SW2-1
+Added Pin To Net: NetName=NetC5_2 Pin=U9-3
+Added Net: Name=NetC5_2
+Added Pin To Net: NetName=NetC6_1 Pin=C6-1
+Added Pin To Net: NetName=NetC6_1 Pin=U14-2
+Added Net: Name=NetC6_1
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=R2-2
+Added Net: Name=NetD1_1
+Added Pin To Net: NetName=NetD2_2 Pin=D2-2
+Added Pin To Net: NetName=NetD2_2 Pin=R3-2
+Added Net: Name=NetD2_2
+Added Pin To Net: NetName=NetD3_1 Pin=D3-1
+Added Pin To Net: NetName=NetD3_1 Pin=R6-2
+Added Net: Name=NetD3_1
+Added Pin To Net: NetName=NetD4_2 Pin=D4-2
+Added Pin To Net: NetName=NetD4_2 Pin=R7-2
+Added Net: Name=NetD4_2
+Added Pin To Net: NetName=NetR1_2 Pin=R1-2
+Added Pin To Net: NetName=NetR1_2 Pin=U1-2
+Added Net: Name=NetR1_2
+Added Pin To Net: NetName=NetR4_2 Pin=R4-2
+Added Pin To Net: NetName=NetR4_2 Pin=U2-2
+Added Net: Name=NetR4_2
+Added Pin To Net: NetName=NetR5_2 Pin=R5-2
+Added Pin To Net: NetName=NetR5_2 Pin=U8-2
+Added Net: Name=NetR5_2
+Added Pin To Net: NetName=RST Pin=J9-1
+Added Pin To Net: NetName=RST Pin=U7-6
+Added Net: Name=RST
+Added Pin To Net: NetName=SCK Pin=J8-5
+Added Pin To Net: NetName=SCK Pin=U6-30
+Added Pin To Net: NetName=SCK Pin=U13-8
+Added Pin To Net: NetName=SCK Pin=U14-30
+Added Net: Name=SCK
+Added Pin To Net: NetName=SCLa Pin=J8-1
+Added Pin To Net: NetName=SCLa Pin=U6-36
+Added Net: Name=SCLa
+Added Pin To Net: NetName=SCL Pin=J5-2
+Added Pin To Net: NetName=SCL Pin=U3-3
+Added Pin To Net: NetName=SCL Pin=U4-3
+Added Pin To Net: NetName=SCL Pin=U11-3
+Added Pin To Net: NetName=SCL Pin=U12-3
+Added Pin To Net: NetName=SCL Pin=U14-36
+Added Net: Name=SCL
+Added Pin To Net: NetName=SDAa Pin=J8-2
+Added Pin To Net: NetName=SDAa Pin=U6-33
+Added Net: Name=SDAa
+Added Pin To Net: NetName=SDA Pin=J5-1
+Added Pin To Net: NetName=SDA Pin=U3-4
+Added Pin To Net: NetName=SDA Pin=U4-4
+Added Pin To Net: NetName=SDA Pin=U11-4
+Added Pin To Net: NetName=SDA Pin=U12-4
+Added Pin To Net: NetName=SDA Pin=U14-33
+Added Net: Name=SDA
+Added Pin To Net: NetName=SS Pin=J9-2
+Added Pin To Net: NetName=SS Pin=U7-7
+Added Net: Name=SS
+Added Class: Name=CanSat1_Sch
+Added Class: Name=Huitzil2
+Added Class: Name=LoRa
+Added Class: Name=MICROCONTROLLER
+Added Class: Name=SENSORS

@@ -1,0 +1,4 @@
+Added Component: Designator=SW1(PWR-SW)
+Added Pin To Net: NetName=NetC2_2 Pin=SW1-1
+Added Pin To Net: NetName=3V3 Pin=SW1-2
+Added Member To Class: ClassName=CanSat1_Sch Member=Component SW1 PWR_SW

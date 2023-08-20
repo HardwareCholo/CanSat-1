@@ -5,6 +5,12 @@
 #include "I2Cdev.h"
 #include "MPU6050.h"
 #include "BMP085.h"
+#include <SPI.h>
+#include <LoRa.h>
+
+#define ss 17
+#define rst 16
+#define dio0 4
 
 //Direcciones I2C
 const int mpuAddress = 0x68;  //Puede ser 0x68 o 0x69
@@ -21,7 +27,7 @@ int16_t gx, gy, gz;
 char lectura;
 float pressure;
 int32_t altitude;
-
+int counter;
 
 void setup() {
   // put your setup code here, to run once:
@@ -35,6 +41,17 @@ void setup() {
   Serial.println("Testing device connections...");
   Serial.println(bmp.testConnection() ? "BMP085 connection successful" : "BMP085 connection failed");
   bmp.setControl(BMP085_MODE_PRESSURE_3);
+  Serial.println("Lora Transmisor");
+
+  LoRa.setPins(ss, rst, dio0);
+
+  while(!LoRa.begin(915E6)){
+    Serial.println(".");
+    delay(500);
+  }
+
+  LoRa.setSyncWord(0xF3);
+  Serial.println("LoRa Initializin ok!");
 }
 
 void loop() {
@@ -47,10 +64,17 @@ void loop() {
   h=dht.readHumidity();
   mpu.getAcceleration(&ax, &ay, &az);
   mpu.getRotation(&gx, &gy, &gz);
-  delay(1000);
-
+  delay(2000);
   //Se imprime la lectura
   Serial.printf("%.2f°C\t%.2f%\t[%i, %i, %i]\t[%i, %i, %i]\t%.2fPa\t%im\n",t,h,ax,ay,az,gx,gy,gz,pressure,altitude);
   digitalWrite(12, LOW);
-  delay(1000);
+  Serial.print("Sending packet: ");
+  Serial.println(counter);
+  int message = counter;
+  LoRa.beginPacket();
+  LoRa.print(message);
+  LoRa.endPacket();
+
+  counter++;
+  delay(2000);
 }

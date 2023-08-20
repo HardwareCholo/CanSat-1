@@ -2,7 +2,7 @@
 #include <SPI.h>
 #include <SD.h>
 
-#define SSpin 5
+#define SSpin 15
 
 File archivo;
 
@@ -17,7 +17,7 @@ void setup() {
 
   //Creación del archivo
   Serial.println("Inicializada");
-  archivo = SD.open("Prueba.txt", FILE_WRITE);
+  archivo = SD.open("/prueba.txt", FILE_WRITE);
 
   if(archivo){
     archivo.println("Probando 1,2,3");
@@ -30,7 +30,7 @@ void setup() {
   }
 
   //Lectura del archivo
-  archivo = SD.open("Prueba.txt");
+  archivo = SD.open("/prueba.txt");
 
   if(archivo){
     Serial.println("Contenido de prueba.txt:");

@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=3V3 Pin=R3-1
+Removed Pin From Net: NetName=3V3 Pin=U2-1
+Removed Pin From Net: NetName=GND Pin=U2-3
+Removed Pin From Net: NetName=3V3 Pin=U3-1
+Removed Pin From Net: NetName=GND Pin=U3-2
+Removed Pin From Net: NetName=3V3 Pin=U4-1
+Removed Pin From Net: NetName=GND Pin=U4-2
+Removed Member From Class: ClassName=CanSat1_Sch Member=J3
+Removed Member From Class: ClassName=CanSat1_Sch Member=R3
+Removed Member From Class: ClassName=CanSat1_Sch Member=U3
+Removed Member From Class: ClassName=CanSat1_Sch Member=U4
