@@ -1,1 +1,5 @@
 Record=TopLevelDocument|FileName=CanSat1_Sch.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=CanSat1_Sch.SchDoc|FileName=Huitzil2.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=CanSat1_Sch.SchDoc|FileName=LoRa.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=CanSat1_Sch.SchDoc|FileName=MICROCONTROLLER.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=CanSat1_Sch.SchDoc|FileName=SENSORS.SchDoc|SheetNumber= 
